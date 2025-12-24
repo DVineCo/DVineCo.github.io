@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D’Vine Company | Living Lemonade</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<header>
+  <h1>D’Vine Company</h1>
+  <p class="scripture">“I am the vine; you are the branches.” — John 15:5</p>
+  <nav>
+    <a href="#shop">Preorder</a>
+    <a href="#story">Our Story</a>
+    <a href="#ingredients">Ingredients</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Living Lemonade</h2>
+  <p>Crafted with faith. Fermented for healing. Made to honor God by nourishing the body He gave us.</p>
+</section>
+
+<section id="shop">
+  <h2>Preorder Living Lemonade</h2>
+  <p class="scripture">“Whether you eat or drink, do it all for the glory of God.” — 1 Corinthians 10:31</p>
+
+  <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="order-form">
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Flavor</label>
+    <select name="flavor">
+      <option>Original Living Lemonade</option>
+      <option>Blueberry</option>
+      <option>Strawberry</option>
+      <option>Strawberry Kiwi</option>
+    </select>
+
+    <label>Quantity</label>
+    <input type="number" name="quantity" min="1" value="1">
+
+    <label>Pickup Notes</label>
+    <textarea name="notes" placeholder="Pickup date or questions"></textarea>
+
+    <button type="submit">Place Preorder</button>
+  </form>
+</section>
+
+<section id="story">
+  <h2>Our Story</h2>
+  <p>
+    D’Vine Company was born from a desire to heal others — but first, healing myself.
+    Through faith, restoration, and obedience to God, this company exists to honor Him
+    by nourishing our temples with living, probiotic-rich foods.
+  </p>
+  <p class="scripture">“He restores my soul.” — Psalm 23:3</p>
+</section>
+
+<section id="ingredients">
+  <h2>Ingredients & Process</h2>
+  <ul>
+    <li>Organic lemons & fruit</li>
+    <li>Natural fermentation</li>
+    <li>Living probiotics</li>
+    <li>No preservatives or artificial ingredients</li>
+  </ul>
+  <p class="scripture">“Your body is a temple of the Holy Spirit.” — 1 Corinthians 6:19</p>
+</section>
+
+<section id="contact">
+  <h2>Contact & Wholesale</h2>
+  <p>Email: divinecompany@email.com</p>
+  <p>Available for churches, events, and local partners.</p>
+</section>
+
+<footer>
+  <p>© D’Vine Company</p>
+  <p class="scripture">“Abide in Me.” — John 15:4</p>
+</footer>
+
+</body>
+</html>
